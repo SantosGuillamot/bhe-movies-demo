@@ -49,7 +49,7 @@ function add_query_loop_variations()
 {
     wp_enqueue_script(
         'query-loop-variations',
-        'http://movies.local/wp-content/plugins/bhe-movies-demo/build/index.js',
+        plugin_dir_url(__FILE__) . 'build/index.js',
         array('wp-blocks')
     );
 }
