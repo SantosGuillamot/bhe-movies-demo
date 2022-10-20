@@ -53,4 +53,4 @@ function add_query_loop_variations()
         array('wp-blocks')
     );
 }
-add_action('init', 'add_query_loop_variations');
+add_action('admin_enqueu_scripts', 'add_query_loop_variations');
